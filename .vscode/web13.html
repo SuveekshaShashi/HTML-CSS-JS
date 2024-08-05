@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tutorial</title>
+    <!-- Internal CSS,Inline CSS has more priority than internal CSS -->
+    <style>
+        p{
+            color: purple;
+            background-color: seagreen !important;
+        }
+    </style>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="web13.css">
+    <!-- See the background became pink,so the thing which is written afterwards in external and internal css will take more order -->
+    <!-- important will take more precedence no matter which(internal or external css) is written where -->
+</head>
+<body>
+    <h3>This is CSS Tutorial</h3>
+    <!-- Inline CSS -->
+    <!-- <p style="color: red;background-color: yellow;">This tutorial will teach you everything you need to know about HTML/CSS</p> -->
+    <p>This tutorial will teach you everything you need to know about HTML/CSS</p>
+</body>
+</html> 

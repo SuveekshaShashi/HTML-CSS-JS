@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /*There are four types of selector in css:- 1.Element selector(p means paragraph is used here) 2.Id selector(# means pound is used here) 3.Class selector(. is used) 4.Grouping selector*/
+
+        /* Element Selector */
+        p{
+            border: 2px solid red;
+        }
+
+        /* Id Selector */
+        #firstpara{
+            color: green;
+        }
+
+        /* Class Selector */
+        .bgBlue{
+            color: yellow;
+            background-color: blue;
+        }
+
+        /* Grouping Selector */
+        footer,span{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <h3>CSS Selectors</h3>
+    <p id="firstpara">This is a simple paragraph to demonstrate CSS selectors</p>
+    <p id="Secondpara" class="redElement bgBlue" >This is a another simple paragraph to demonstrate CSS selectors</p>
+    <div>
+        <p>This is yet another simple paragraph inside div demonstrate CSS selectors</p>
+        <span>This is span</span>
+    </div>
+    <footer>This is footer</footer>
+</body>
+</html>

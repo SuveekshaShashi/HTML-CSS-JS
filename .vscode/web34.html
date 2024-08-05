@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and tex shadow</title>
+    <style>
+        .container{
+            display: flex;
+
+        }
+        .card{
+            padding: 23px 12px; 
+            margin: 23px 12px;
+            /* border: 2px solid red; */
+            background-color: burlywood;
+
+            /* box-shadow: offset-x offset-y color; */
+            /* For lower and right part */
+            /* box-shadow: 5px 5px purple;*/
+            /* For upper and left part */
+            /* box-shadow: -5px -5px purple;*/
+            
+            /* box-shadow: offset-x offset-y blur-radius color; */
+            /* Here 10px is the blur-radius  */
+            /* box-shadow: 7px 5px 10px purple;  */
+            /* box-shadow: -7px -5px 10px purple; */
+
+            /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+            /* Here 23px is the spread radius */
+            /* box-shadow: 7px 5px 10px 23px purple; */
+            /* box-shadow: -7px -5px 10px 23px rgba(22, 142, 66, 0.5); */
+
+            /* box-shadow: inset 3px 5px crimson; */
+            /* For multiple inner shadows */
+            box-shadow: 4px 6px chocolate,3px 4px blue;
+        }
+        .card h2{
+            /* text-shadow: 3px 4px white; */
+            /* text-shadow: 3px 4px 2px whitesmoke;  */
+            text-shadow: -3px -4px 2px whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>This is C++ course</h2>
+            <p>I have started C++ course which does not maen that we will stop this course.We will continue this course to complete.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis recusandae voluptas deleniti corrupti fugiat, unde perferendis tenetur ea sit neque, modi repellendus fugit autem atque illo excepturi ut dolorem? Fuga aliquam officiis maiores corporis?</p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>This is HTML course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem repellendus quibusdam quasi reiciendis quae cupiditate. Ullam expedita ipsum quia nemo non laborum nihil ratione suscipit natus, quaerat atque dolores facilis! Minima eum veritatis totam.</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>Card3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nihil atque, mollitia sit eius, exercitationem aspernatur maiores tenetur iste deleniti earum, quasi debitis possimus cum! Hic asperiores ipsa doloremque aliquid maxime! Laudantium, cupiditate magnam.</p>
+        </div>
+    </div>
+</body>
+</html>
